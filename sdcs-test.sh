@@ -20,7 +20,10 @@ which jq >/dev/null 2>&1 || {
 }
 
 PORT_BASE=9526
+
 HOST_BASE=127.0.0.1
+# HOST_BASE=host.docker.internal
+
 MAX_ITER=500
 DELETED_KEYS=()
 _DELETED_KEYS_GENERATED=0
