@@ -29,5 +29,6 @@ Simple test for SDCS
          ```
       3. 可以通过`/usr/local/bin/bash --version`确认新bash的版本。
       4. 使用`/usr/local/bin/bash ./sdcs-test.sh {cache_server_number}`运行测试脚本。
+1. docker 容器运行脚本时，为了能够使运行该脚本的容器直接访问主机的端口，设置 HOST_BASE=host.docker.internal
 
 
