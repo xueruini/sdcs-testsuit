@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# 不用显示指定bash
 #!/bin/bash
 
 if [[ $# -ne 1 ]]; then
